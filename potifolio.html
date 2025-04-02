@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Luis Gustavo</h1>
+        <p>Estudante de ADS</p>
+    </header>
+   
+    
+    
+    <section id="sobre">
+        <img src="foto_perfil.jpg" alt="">
+        <h2>Sobre Mim</h2> 
+    <pre>
+
+        <span class="keyword">const</span> 
+        nome = <span class="string">"Luis Gustavo"</span>;
+        <span class="keyword">const</span>
+         curso = <span class="string">"Análise e Desenvolvimento de Sistemas (ADS) - Uninter"</span>;
+        <span class="keyword">let</span> 
+        experiencia = <span class="string">"Ainda não tenho experiência na área atuando no mercado de trabalho, porém sempre disposto a aprender"</span>;
+        <span class="keyword">let</span> 
+        paixao = <span class="string">"Apaixonado pelo mundo da programação."</span>;
+        <span class="keyword">let</span> 
+        pensamento = <span class="string">"Programar não é só escrever código, é criar, resolver problemas e transformar ideias em realidade."</span>;
+        <span class="keyword">let</span> 
+        objetivo = <span class="string">"Aprender, evoluir e construir coisas incríveis no futuro."</span>;
+        <span class="comment">// Cada linha de código me deixa melhor que ontem.</span>
+   </pre>
+        <!-- <p>Eu sou o Luis Gustavo, estudante de Análise e Desenvolvimento de Sistemas (ADS) pela Uninter. Ainda não tenho experiência na área, mas sou completamente apaixonado pelo mundo da programação. É um universo que sempre me chamou atenção e que, quanto mais eu descubro, mais eu gosto.
+
+            Gosto de passar meu tempo aprendendo coisas novas, estudando e tentando entender como tudo funciona por trás das telas. Para mim, programar não é só escrever código — é criar, resolver problemas e transformar ideias em realidade.
+            
+            Ainda estou no começo da caminhada, mas acredito que todo aprendizado conta e cada linha de código me deixa um pouco melhor do que ontem. E é isso... tô aqui pra aprender, evoluir e, quem sabe, construir coisas incríveis no futuro.</p> -->
+    </section>
+    
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="projeto 1.jpg" alt="Projeto 1">
+                <h3> Lista de Tarefa
+                </h3>
+                <p>Este aplicativo foi desenvolvido na disciplina de Tópicos Avançados em Programação, com o professor Welton, utilizando as linguagens Kotlin e HTML no Android Studio. O projeto tem como objetivo principal a criação de um aplicativo de tarefas, permitindo que os usuários adicionem, editem e excluam tarefas de forma intuitiva. O desenvolvimento envolveu a implementação de uma interface interativa e a integração com banco de dados para garantir a persistência das informações.</p>
+            </div>
+            <div class="projeto">
+                <img src="projeto 2.png" alt="Projeto 2">
+                <h3>Mountain Shooter</h3>
+                <p>Desenvolvimento do Terceiro Nível de um Jogo
+
+                    Este projeto foi realizado como parte de um trabalho acadêmico de Linguagem de Programação, com o objetivo de desenvolver a terceira fase de um jogo utilizando Python. Foram implementadas mecânicas de movimentação, interação e desafios, garantindo coerência com os níveis anteriores. O projeto seguiu boas práticas de programação para otimizar a jogabilidade e a experiência do jogador.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
